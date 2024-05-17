@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album de musica</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="capa-trasera">
+    <div class="disco" id="disco">
+        <div class="hueco"></div>
+    </div>
+    <div class="capa-delantera"> <!-- División para la capa delantera -->
+        <h1>For King & Country</h1> <!-- Título que muestra el nombre del álbum -->
+        <span class="titulo">Burn the Ships</span> <!-- Texto que muestra el nombre de la canción actual -->
+        <ol id="playlist"> <!-- Lista ordenada de canciones del álbum -->
+            <li data-song="Pioneers">Pioneers<span>5:58</span></li> <!-- Elemento de la lista que representa una canción -->
+            <!-- Los siguientes elementos de la lista siguen el mismo formato -->
+            <li data-song="NeedYouMore">Need You More<span>3:36</span></li>
+            <li data-song="Control">Control<span>4:27</span></li>
+            <li data-song="HoldHer">Hold Her<span>4:05</span></li>
+            <li data-song="FightOn,Fighter">Fight On, Fighter<span>3:39</span></li>
+            <li data-song="BurntheShips">Burn the Ships<span>4:42</span></li>
+            <li data-song="Amen">Amen<span>3:55</span></li>
+            <li data-song="Joy">Joy<span>5:09</span></li>
+        </ol>
+        <div id="audio-controls"> <!-- Controles de audio para reproducir las canciones -->
+            <audio id="audio" controls> <!-- Elemento de audio con controles -->
+                Tu navegador no soporta el elemento de audio. <!-- Mensaje de respaldo si el navegador no admite audio -->
+            </audio>
+        </div>
+    </div>
+</div>
+
+<script src="/scripts.js"></script> <!-- Enlace al archivo JavaScript externo -->
+</body>
+</html>
